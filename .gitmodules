@@ -1,6 +1,3 @@
-[submodule "cesar_cpp_parser"]
-	path = tools/cesar_cpp_parser
-	url = https://github.com/mi-ael/cesar_cpp_parser
 [submodule "tools/cesar_cpp_parser"]
 	path = tools/cesar_cpp_parser
 	url = https://github.com/mi-ael/cesar_cpp_parser
