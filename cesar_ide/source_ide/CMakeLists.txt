@@ -92,6 +92,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
         Qt5::Widgets
         Qt5::Qml
         clang
+        ${CONAN_LIBS}
 )
 
 if (UNIX)

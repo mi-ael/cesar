@@ -54,11 +54,16 @@ if (NOT MSVC)
   set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} -std=c++14)
 endif()
 
+# setup conan (dependency manager)
+INCLUDE(conanbuildinfo.cmake)
+CONAN_BASIC_SETUP()
+
+
 # Testing configuration
 enable_testing()
 set(TEST_LINK_LIBRARIES Qt5::Test)
 
-add_subdirectory(source)
+add_subdirectory(source_ide)
 add_subdirectory(tests)
 
 if (WIN32)

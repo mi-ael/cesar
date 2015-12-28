@@ -17,7 +17,7 @@
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/defines.h.cmake
                ${CMAKE_CURRENT_BINARY_DIR}/defines.h)
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../source)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../source_ide)
 
 set(TEST_ROOT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 string(LENGTH ${TEST_ROOT_DIRECTORY} TEST_ROOT_DIRECTORY_LENGTH)
